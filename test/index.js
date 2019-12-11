@@ -1,4 +1,5 @@
 
+import { assert } from 'chai';
 import extend from '../src';
 
 describe('Extend', () => {
@@ -8,6 +9,6 @@ describe('Extend', () => {
 
 		let result = { a: 0, b: 1 };
 
-		return extend()
+		assert.deepEqual(extend(a, b), result);
 	})
 })
