@@ -1,11 +1,11 @@
 {
   "name": "@forest.host/extend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple extend",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --require @babel/register",
-	"prepublish": "babel src -d lib"
+    "prepublish": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/suprasoil/extend#readme",
   "babel": {
-  	"plugins": [
-		"@babel/plugin-transform-modules-commonjs"
-	]
+    "plugins": [
+      "@babel/plugin-transform-modules-commonjs"
+    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
