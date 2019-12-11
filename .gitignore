@@ -1,0 +1,3 @@
+node_modules
+# I trust semver for now, will probably commit lockfile in future
+package-lock.json

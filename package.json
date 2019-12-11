@@ -1,0 +1,33 @@
+{
+  "name": "extend",
+  "version": "1.0.0",
+  "description": "Simple extend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suprasoil/extend.git"
+  },
+  "author": "Johan Schuijt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suprasoil/extend/issues"
+  },
+  "homepage": "https://github.com/suprasoil/extend#readme",
+  "babel": {
+  	"plugins": [
+		"@babel/plugin-transform-modules-commonjs"
+	]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.5",
+    "@babel/register": "^7.7.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {}
+}
