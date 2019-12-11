@@ -2,9 +2,10 @@
   "name": "@forest.host/extend",
   "version": "1.0.0",
   "description": "Simple extend",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --require @babel/register"
+    "test": "mocha --require @babel/register",
+	"prepublish": "babel src -d lib"
   },
   "repository": {
     "type": "git",
