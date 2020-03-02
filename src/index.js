@@ -10,7 +10,7 @@ const get_type = function(variable) {
 }
 
 // Merge objects
-const extend = function() {
+export const extend = function() {
 	return Array.from(arguments).reduce((aggregate, object) => {
 		if(get_type(object) != 'object')
 			throw new Error('Extend only accepts objects')
